@@ -1,0 +1,39 @@
+.ps-notice,
+.ps-error,
+.ps-success {
+    background-color: #eee;
+    padding: 2em;
+}
+
+.ps-error {
+    color: red;
+}
+
+.ps-form-field label :not(:focus):invalid {
+    border-color: red;
+}
+
+.ps-form-help {
+    font-size: .8em;
+    font-style: italic;
+    font-weight: normal;
+    margin-left: 1em;
+}
+
+.ps-form-field select {
+    width: 100%;
+}
+
+input[name="honeyfield"] {
+    display: none;
+}
+
+#show-password {
+    text-align: right;
+}
+
+.ps-project-details {
+    background-color: #eee;
+    margin-bottom: 1.5em;
+    padding: 1em;
+}

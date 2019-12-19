@@ -1,0 +1,7 @@
+body:not(.logged-in) .ps-logged-in-only {
+    display: none;
+}
+
+.logged-in .ps-logged-out-only {
+    display: none;
+}
